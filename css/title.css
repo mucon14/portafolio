@@ -1,0 +1,91 @@
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.title__container {
+    width: 70%;
+}
+
+.title__profile {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.title__bio {
+    font-size: 4rem;
+}
+.title__subsection {
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+.title__network {
+    display: flex;
+    padding-left: 0;
+}
+.title__network__item {
+    margin-right: 3rem;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .title__div {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: flex-start;
+        margin-top: 1rem;
+    }
+
+    .title__profile {
+        width: 40%;
+    }
+
+    .title__container {
+        width: 100%;
+    }
+
+    .title__bio {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+    }
+
+    .title__network__item {
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .title__div {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .title__profile {
+        width: 30%;
+    }
+
+    .title__container {
+        width: 60%;
+    }
+
+    .title__bio {
+        font-size: 1.7rem;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+    }
+
+    .title__network__item {
+        margin-right: 1.5rem;
+        font-weight: bold;
+    }
+}

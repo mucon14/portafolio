@@ -1,0 +1,46 @@
+.about {
+    background: #EAF2FD;
+    padding: 0 7rem;
+}
+
+.about__container {
+    padding: 2.5rem 0;
+    width: 65%;
+}
+.about__title {
+    font-size: 2rem;
+}
+
+.about__paragraph {
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .about {
+        padding: 1.5rem;
+    }
+
+    .about__container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .about__title {
+        margin-top: .5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about {
+        padding: 1rem 2rem;
+    }
+
+    .about__container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .about__title {
+        margin-top: .5rem;
+    }
+}
